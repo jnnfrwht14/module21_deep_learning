@@ -19,5 +19,8 @@ The goal of this analysis was to create a model that was able to identify applic
 
 ##Summary: I ran over 40 models but kept seven. I tried a variety of models - varied the number of nodes and input features and activation. I wasn't able to reach 75%, and realized that removing some of the columns from the data decreased the accuracy. If the first ten epochs didn't reach 72 or higher, then the overall model was not going to reach 73. I would recommend removing outliers in the 'INCOME_AMT' and "ASK_AMT" to reduce noise. 
 
+
+![attempt7](https://github.com/jnnfrwht14/module21_deep_learning/assets/144621532/cc1b225f-c53b-4800-9458-534ab9979b52)
+
 H5 help:
 https://www.tensorflow.org/guide/keras/serialization_and_saving
